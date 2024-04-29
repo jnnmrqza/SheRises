@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.bg{
+    width: 700px;
+    height: 650px;
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+}
+body{
+    background-color: rgba(244, 155, 247, 0.699);
+    background: linear-gradient(to right, rgb(233, 96, 228), transparent);
+}
+.body1{
+    padding: 10px 8px;
+    margin-left: 3%;
+}
+.logo{
+    width: 200px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px 50px;
+
+}
+nav ul li{
+    color: rgb(76, 6, 74);
+    text-decoration: none;
+}
+nav ul li:hover{
+    color: rgb(226, 43, 107);
+}
+.text{
+    margin-top: 15%;
+}
+.text h1{
+    color: rgb(94, 1, 75);
+    font-size: 60px;
+    font-weight: 590;
+    line-height: 70px;
+    margin-bottom: 15px;
+}
+.text p{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+
+}
+a{
+    font-size: 18px;
+    color: blanchedalmond;
+    background-color: rgb(154, 14, 116);
+    border-radius: 10px;
+    border: 1px solid palegoldenrod;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 5, 102);
+}
+
+/*2nd page*/
+.h1{
+    color: rgb(240, 220, 190);
+    padding-top: 25px;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pabout{
+    color: antiquewhite;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 23px;
+
+
+}
+.about{
+    background-color: rgba(175, 32, 159, 0.678);
+    width: 40%;
+    height: 350px;
+    margin-left: 3%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.about:hover{
+    background-color: rgba(97, 17, 88, 0.678);
+}
